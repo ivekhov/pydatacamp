@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pydatacamp"
+version = "0.1.0"
+description = ""
+authors = ["ivekhov <ivekhov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.3"
+jupyter = "^1.0.0"
+sqlalchemy = "^2.0.8"
+pytest = "^7.2.2"
+pylint = "^2.17.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
